@@ -1,0 +1,43 @@
+.logo {
+    width: 10rem;
+}
+
+nav a.nav-link {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+nav ul li {
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    color: #fc982c !important;
+    margin-right: 2.5rem;
+    border-top: 0.1875rem solid rgba(255, 255, 255, 0);
+}
+
+.container-fluid {
+    padding: 1rem 0;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.phone {
+    margin-left: 3rem;
+    margin-right: 0 !important;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+    border-top: 0.1875rem solid #fc982c;
+}
+
+.navbar-nav > li > a:hover {
+    border-top: 0.1875rem solid #fc982c;
+}
+
+.navbar-toggler {
+    font-size: 2.25rem !important;
+}
