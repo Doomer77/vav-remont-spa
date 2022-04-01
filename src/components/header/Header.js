@@ -4,9 +4,9 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className="header-wrapper">
+        <section className="header-wrapper">
             <div className="main-info">
-                <h1>Ремонт любой сложности</h1>
+                <h1>Ремонт квартир в Москве любой сложности</h1>
                 <Typed
                     className="typed-text"
                     strings={[
@@ -21,7 +21,7 @@ const Header = () => {
                 />
                 <button className="btn-main-offer">Заказть ремонт</button>
             </div>
-        </div>
+        </section>
     )
 }
 
