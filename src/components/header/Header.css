@@ -1,0 +1,88 @@
+.header-wrapper {
+    height: 86vh;
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(
+            to right bottom,
+            rgba(120, 120, 120, 0.5),
+            rgba(120, 120, 120, 0.5)
+        ),
+        url('../../bcg-image.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.main-info {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.main-info h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.6rem;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.typed-text {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 5rem;
+    font-style: italic;
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn-main-offer {
+    padding: 1rem 1.9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    background: rgba(93, 71, 59, 0.7);
+    color: #fff;
+    border: 2px solid #fff;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-main-offer:hover {
+    transform: translateY(-0.5rem);
+    -webkit-box-shadow: 0px 5px 29px 2px rgba(34, 60, 80, 0.5);
+    -moz-box-shadow: 0px 5px 29px 2px rgba(34, 60, 80, 0.5);
+    box-shadow: 0px 5px 29px 2px rgba(34, 60, 80, 0.5);
+}
+
+.btn-main-offer:active,
+.btn-main-offer:focus {
+    transform: translateX(0);
+    box-shadow: none;
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .main-info h1 {
+        font-size: 2.5rem !important;
+    }
+
+    .typed-text {
+        font-size: 1.2rem !important;
+    }
+
+    .btn-main-offer {
+        font-size: 1.5rem !important;
+    }
+}
