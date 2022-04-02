@@ -22,7 +22,6 @@ const Features = () => {
                             alt="Демонтаж"
                             className="feature-img"
                         />
-                        ``
                         <p className="feature-text">Демонтаж</p>
                     </div>
                     <div className="col-lg-3 col-md-6 feature">
@@ -31,7 +30,6 @@ const Features = () => {
                             alt="Отделка"
                             className="feature-img"
                         />
-                        ``
                         <p className="feature-text">Отделка</p>
                     </div>
                     <div className="col-lg-3 col-md-6 feature">
@@ -53,7 +51,7 @@ const Features = () => {
                 </div>
 
                 <div className="row d-flex justify-content-around">
-                    <div className="col-lg-3 col-md-6 feature">
+                    <div className="col-lg-3 col-md-6 feature feature__mod">
                         <img
                             src={plumbing}
                             alt="Сантехнические работы"
