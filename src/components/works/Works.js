@@ -25,7 +25,7 @@ const Works = () => {
                 <div className="container">
                     <div className="works-heading">Наши работы:</div>
                     <div className="row d-flex justify-content-around mb">
-                        <div className="col-lg-4 col-md-4 col-sm-4 work">
+                        <div className="col-lg-3 col-md-4 col-sm-4 work">
                             <img
                                 src={work1}
                                 alt=""
@@ -33,7 +33,7 @@ const Works = () => {
                                 onClick={() => getImg(work1)}
                             />
                         </div>
-                        <div className="col-lg-4 col-md-4 col-sm-4 work">
+                        <div className="col-lg-3 col-md-4 col-sm-4 work">
                             <img
                                 src={work2}
                                 alt=""
@@ -41,7 +41,7 @@ const Works = () => {
                                 onClick={() => getImg(work2)}
                             />
                         </div>
-                        <div className="col-lg-4 col-md-4 col-sm-4 work">
+                        <div className="col-lg-3 col-md-4 col-sm-4 work">
                             <img
                                 src={work3}
                                 alt=""
@@ -51,7 +51,7 @@ const Works = () => {
                         </div>
                     </div>
                     <div className="row d-flex justify-content-around">
-                        <div className="col-lg-4 col-md-4 col-sm-4 work">
+                        <div className="col-lg-3 col-md-4 col-sm-4 work">
                             <img
                                 src={work4}
                                 alt=""
@@ -59,7 +59,7 @@ const Works = () => {
                                 onClick={() => getImg(work4)}
                             />
                         </div>
-                        <div className="col-lg-4 col-md-4 col-sm-4 work">
+                        <div className="col-lg-3 col-md-4 col-sm-4 work">
                             <img
                                 src={work5}
                                 alt=""
@@ -67,7 +67,7 @@ const Works = () => {
                                 onClick={() => getImg(work5)}
                             />
                         </div>
-                        <div className="col-lg-4 col-md-4 col-sm-4 work">
+                        <div className="col-lg-3 col-md-4 col-sm-4 work">
                             <img
                                 src={work6}
                                 alt=""
