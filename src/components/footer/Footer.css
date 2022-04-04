@@ -1,0 +1,37 @@
+.footer {
+    background: #fc982c;
+    color: #000000;
+    padding: 3rem;
+}
+
+.footer a {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.footer p {
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+
+.footer-icon {
+    margin-left: 1rem !important;
+    color: var(--primary-orange);
+    font-size: 2.6rem;
+    transition: all 0.3s;
+}
+
+.footer-icon:hover {
+    opacity: 0.5;
+}

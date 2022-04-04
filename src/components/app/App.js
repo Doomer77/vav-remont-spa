@@ -4,6 +4,7 @@ import Navbar from '../navbar'
 import Features from '../features'
 import Works from '../works'
 import Contacts from '../contacts'
+import Footer from '../footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
@@ -15,6 +16,7 @@ function App() {
             <Features />
             <Works />
             <Contacts />
+            <Footer />
         </>
     )
 }

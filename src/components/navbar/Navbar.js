@@ -67,7 +67,7 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link" href="tel:8967118-92-52">
+                            <a className="nav-link" href="tel:89671189252">
                                 8(967)118-92-52
                             </a>
                         </li>
