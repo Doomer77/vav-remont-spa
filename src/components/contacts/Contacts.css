@@ -1,0 +1,75 @@
+.contacts-wrapper {
+    background: #000000;
+    padding: 6rem 0;
+}
+
+.contacts-heading {
+    margin-bottom: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+    text-align: center;
+    font-weight: 700;
+    color: #fc982c;
+}
+
+.contacts-wrapper input,
+.contacts-wrapper textarea {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0;
+    border-bottom: 0.1rem solid #ffffff;
+    border-radius: 0;
+    color: gray;
+    outline: 0 !important;
+    box-shadow: none !important;
+    margin-bottom: 1rem;
+    padding-left: 0 !important;
+}
+
+.contacts-wrapper .container {
+    padding: 4rem 0;
+}
+
+.contacts-wrapper input:focus,
+.contacts-wrapper textarea:focus {
+    background: transparent !important;
+    color: #fc982c;
+    border-bottom: 0.1rem solid #ffffff;
+}
+
+.contacts-wrapper textarea {
+    height: 15.79rem !important;
+}
+
+.contact-btn {
+    margin: 1rem 0 0 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.error-message {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(214, 47, 47);
+}
+.success-message {
+    display: block;
+    color: rgb(31, 193, 31);
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    text-align: center !important;
+}
+
+@media (max-width: 768px) {
+    .contacts-wrapper .container {
+        padding: 0 1rem;
+    }
+}

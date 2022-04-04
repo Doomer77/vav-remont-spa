@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import CloseIcon from '@mui/icons-material/Close'
 import './Works.css'
-import work1 from '../../work-1.jpg'
-import work2 from '../../work-2.jpg'
-import work3 from '../../work-3.jpg'
-import work4 from '../../work-4.jpg'
-import work5 from '../../work-5.jpg'
-import work6 from '../../work-6.jpg'
+import work1 from '../../images/work-1.jpg'
+import work2 from '../../images/work-2.jpg'
+import work3 from '../../images/work-3.jpg'
+import work4 from '../../images/work-4.jpg'
+import work5 from '../../images/work-5.jpg'
+import work6 from '../../images/work-6.jpg'
 
 const Works = () => {
     const [modal, setModal] = useState(false)
