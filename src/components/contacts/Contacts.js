@@ -44,7 +44,7 @@ const Contacts = () => {
     }
 
     return (
-        <section className="contacts-wrapper">
+        <section id="contacts" className="contacts-wrapper">
             <div className="contacts-heading">Оформить заказ:</div>
             <div className="container">
                 <span className="success-message">{successMessage}</span>

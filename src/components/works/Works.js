@@ -21,7 +21,7 @@ const Works = () => {
                 <img src={tempImgSrc} alt="" />
                 <CloseIcon onClick={() => setModal(false)} />
             </div>
-            <section className="works-wrapper">
+            <section id="works" className="works-wrapper">
                 <div className="container">
                     <div className="works-heading">Наши работы:</div>
                     <div className="row d-flex justify-content-around mb">
