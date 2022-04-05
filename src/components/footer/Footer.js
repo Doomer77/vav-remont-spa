@@ -7,90 +7,86 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="container">
-                <div className="row">
-                    <div className="col-lg-4 col-md-6 clo-sm-6">
+                <div className="row d-flex align-items-center">
+                    <div className="col-lg-4 col-md-4 col-sm-12 footer-contacts">
                         <div className="d-flex">
-                            <a href="tel:89267360018">8-926-736-00-18</a>
+                            <a href="tel:89671189252">8(967)118-92-52</a>
                         </div>
                         <div className="d-flex">
-                            <a href="mailto:podgorniy.sergei@yandex.ru">
-                                podgorniy.sergei@yandex.ru
+                            <a href="mailto:vav_remont@mail.ru">
+                                vav_remont@mail.ru
                             </a>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-2 col-sm-6">
-                        <div className="row">
-                            <div className="col">
-                                <Link
-                                    smooth={true}
-                                    to="home"
-                                    offset={-110}
-                                    className="footer-nav"
-                                    href="#"
-                                >
-                                    Главная
-                                </Link>
-                                <br />
-                                <Link
-                                    smooth={true}
-                                    to="about"
-                                    offset={-110}
-                                    className="footer-nav"
-                                    href="#"
-                                >
-                                    Обо мне
-                                </Link>
-                                <br />
-                                <Link
-                                    smooth={true}
-                                    to="certificates"
-                                    offset={-110}
-                                    className="footer-nav"
-                                    href="#"
-                                >
-                                    Сертификаты
-                                </Link>
-                                <br />
-                            </div>
-                            <div className="col">
-                                <Link
-                                    smooth={true}
-                                    to="expirience"
-                                    offset={-110}
-                                    className="footer-nav"
-                                    href="#"
-                                >
-                                    Навыки
-                                </Link>
-                                <br />
-                                <Link
-                                    smooth={true}
-                                    to="portfolio"
-                                    offset={-110}
-                                    className="footer-nav"
-                                    href="#"
-                                >
-                                    Портфолио
-                                </Link>
-                                <br />
-                                <Link
-                                    smooth={true}
-                                    to="contacts"
-                                    offset={-110}
-                                    className="footer-nav"
-                                    href="#"
-                                >
-                                    Котакты
-                                </Link>
-                            </div>
-                        </div>
+                    <div className="col-lg-2 col-md-2 col-sm-12 footer-navigation">
+                        <Link
+                            smooth={true}
+                            to="home"
+                            offset={-110}
+                            className="footer-nav"
+                            href="#"
+                        >
+                            Главная
+                        </Link>
+                        <br />
+                        <Link
+                            smooth={true}
+                            to="about"
+                            offset={-110}
+                            className="footer-nav"
+                            href="#"
+                        >
+                            О нас
+                        </Link>
+                        <br />
+                        <Link
+                            smooth={true}
+                            to="services"
+                            className="footer-nav"
+                            href="#"
+                        >
+                            Услуги
+                        </Link>
+                        <br />
                     </div>
-                    <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
+                    <div className="col-lg-2 col-md-3 col-sm-12 footer-navigation">
+                        <Link
+                            smooth={true}
+                            to="works"
+                            offset={-100}
+                            className="footer-nav"
+                            href="#"
+                        >
+                            Наши работы
+                        </Link>
+                        <br />
+                        <Link
+                            smooth={true}
+                            to="remount"
+                            offset={-110}
+                            className="footer-nav"
+                            href="#"
+                        >
+                            Ремонт
+                        </Link>
+                        <br />
+                        <Link
+                            smooth={true}
+                            to="contacts"
+                            offset={-110}
+                            className="footer-nav"
+                            href="#"
+                        >
+                            Котакты
+                        </Link>
+                    </div>
+                    <div className="col-lg-4 col-md-3 socials">
                         <div className="d-flex justify-content-center">
                             <SocialIcon
                                 network="vk"
                                 url="https://vk.com/podgorich"
                                 bgColor="#ffffff"
+                                fgColor="#000000"
                                 style={{
                                     height: 30,
                                     width: 30,
@@ -101,6 +97,7 @@ const Footer = () => {
                                 network="telegram"
                                 url="https://vk.com/podgorich"
                                 bgColor="#ffffff"
+                                fgColor="#000000"
                                 style={{
                                     height: 30,
                                     width: 30,
@@ -111,6 +108,7 @@ const Footer = () => {
                                 network="youtube"
                                 url="https://vk.com/podgorich"
                                 bgColor="#ffffff"
+                                fgColor="#000000"
                                 style={{ height: 30, width: 30 }}
                             />
                         </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 import Logo from '../../images/logo.svg'
 import './Navbar.css'
 
@@ -7,15 +8,15 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
             <div className="container-fluid">
-                <a className="navbar-brand" href="/">
+                <Link className="navbar-brand" href="/">
                     <img
                         className="logo"
                         src={Logo}
                         alt="vav-remont - ремонт квартир в Москве и МО"
                     />
-                </a>
+                </Link>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -37,34 +38,67 @@ const Navbar = () => {
                 >
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">
+                            <Link
+                                smooth={true}
+                                to="home"
+                                offset={-110}
+                                className="nav-link"
+                                href="#"
+                            >
                                 Главная
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <Link
+                                smooth={true}
+                                to="about"
+                                className="nav-link"
+                                href="#"
+                            >
                                 О нас
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <Link
+                                smooth={true}
+                                to="services"
+                                offset={-100}
+                                className="nav-link"
+                                href="#"
+                            >
                                 Услуги
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <Link
+                                smooth={true}
+                                to="works"
+                                offset={-100}
+                                className="nav-link"
+                                href="#"
+                            >
                                 Наши работы
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <Link
+                                smooth={true}
+                                to="remount"
+                                className="nav-link"
+                                href="#"
+                            >
                                 Ремонт
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <Link
+                                smooth={true}
+                                to="contacts"
+                                className="nav-link"
+                                href="#"
+                            >
                                 Контакты
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item active">
                             <a className="nav-link" href="tel:89671189252">

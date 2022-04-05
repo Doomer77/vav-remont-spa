@@ -12,7 +12,7 @@ import './Features.css'
 
 const Features = () => {
     return (
-        <section className="features-wrapper">
+        <section id="services" className="features-wrapper">
             <div className="container">
                 <div className="features-heading">Мы выполняем:</div>
                 <div className="row d-flex justify-content-around mb">
