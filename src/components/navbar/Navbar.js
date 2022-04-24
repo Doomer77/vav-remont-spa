@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import Logo from '../../images/logo.svg'
+import Logo from '../../images/logo-2.svg'
 import './Navbar.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
