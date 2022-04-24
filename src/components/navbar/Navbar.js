@@ -12,7 +12,6 @@ const Navbar = () => {
             <div className="container-fluid">
                 <Link className="navbar-brand" to="home">
                     <img
-                        smooth={true}
                         className="logo"
                         src={Logo}
                         alt="vav-remont - ремонт квартир в Москве и МО"
@@ -52,6 +51,7 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link
                                 smooth={true}
+                                offset={-100}
                                 to="about"
                                 className="nav-link"
                                 href="#"
