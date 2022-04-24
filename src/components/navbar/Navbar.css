@@ -4,6 +4,7 @@
 
 .logo {
     width: 9.5rem;
+    cursor: pointer;
 }
 
 nav a.nav-link {

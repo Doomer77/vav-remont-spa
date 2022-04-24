@@ -10,8 +10,9 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
             <div className="container-fluid">
-                <Link className="navbar-brand" href="/">
+                <Link className="navbar-brand" to="home">
                     <img
+                        smooth={true}
                         className="logo"
                         src={Logo}
                         alt="vav-remont - ремонт квартир в Москве и МО"
