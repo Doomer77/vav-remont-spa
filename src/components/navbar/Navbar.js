@@ -84,6 +84,7 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link
                                 smooth={true}
+                                offset={-100}
                                 to="remount"
                                 className="nav-link"
                                 href="#"

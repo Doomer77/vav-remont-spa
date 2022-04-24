@@ -6,6 +6,7 @@ import Works from '../works'
 import Contacts from '../contacts'
 import Footer from '../footer'
 import About from '../about'
+import Remount from '../remount'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
@@ -17,6 +18,7 @@ function App() {
             <About />
             <Features />
             <Works />
+            <Remount />
             <Contacts />
             <Footer />
         </>
