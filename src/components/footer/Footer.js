@@ -32,7 +32,7 @@ const Footer = () => {
                         <Link
                             smooth={true}
                             to="about"
-                            offset={-110}
+                            offset={-100}
                             className="footer-nav"
                             href="#"
                         >
@@ -84,7 +84,7 @@ const Footer = () => {
                         <div className="d-flex justify-content-center">
                             <SocialIcon
                                 network="vk"
-                                url="https://vk.com/podgorich"
+                                url="https://vk.com"
                                 bgColor="#ffffff"
                                 fgColor="#000000"
                                 style={{
@@ -95,7 +95,7 @@ const Footer = () => {
                             />
                             <SocialIcon
                                 network="telegram"
-                                url="https://vk.com/podgorich"
+                                url="https://tgclick.com/Vav_remont"
                                 bgColor="#ffffff"
                                 fgColor="#000000"
                                 style={{
@@ -106,7 +106,7 @@ const Footer = () => {
                             />
                             <SocialIcon
                                 network="youtube"
-                                url="https://vk.com/podgorich"
+                                url="https://youtube.com"
                                 bgColor="#ffffff"
                                 fgColor="#000000"
                                 style={{ height: 30, width: 30 }}
