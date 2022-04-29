@@ -77,7 +77,7 @@ const Footer = () => {
                             className="footer-nav"
                             href="#"
                         >
-                            Котакты
+                            Контакты
                         </Link>
                     </div>
                     <div className="col-lg-4 col-md-3 socials">
